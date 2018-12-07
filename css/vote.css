@@ -1,0 +1,134 @@
+.top-bread-box{
+	width: 1100px;
+	position: relative;
+	margin: 20px auto 0px auto;
+}
+
+/*列表*/
+.vote-list-container{
+	width: 1100px;
+	position: relative;
+	margin: 0px auto;
+}
+.vote-list-container .vote-list{
+	width: 1125px;
+	position: relative;
+	min-height: 420px;
+}
+.vote-list-container .vote-list .one-vote{
+	display: inline-block;
+	width: 260px;
+	height: 420px;
+	position: relative;
+	margin-bottom: 50px;
+	margin-right: 16px;
+	vertical-align: top;
+}
+.vote-list-container .vote-list .one-vote .img-wrap{
+	width: 100%;
+	height: 300px;
+	background-color: #f3e7f7;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.vote-list-container .vote-list .works-name{
+	color: #333333;
+	font-size: 16px;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: center;
+}
+.vote-list-container .vote-list .team-info{
+	font-size: 14px;
+	width: 100%;
+	height: 30px;
+}
+.vote-list-container .vote-list .team-info .title{
+	color: #767676;
+}
+.vote-list-container .vote-list .team-info .team-name{
+	color: #333;
+}
+
+.vote-list-container .vote-list .team-info .vote-count{
+	float: right;
+}
+.vote-list-container .vote-list .team-info .vote-count .count{
+	color: #f5635f;
+}
+
+.vote-list-container .vote-list .vote-btn{
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	background-color: #7b00a9;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 5px;
+	bottom: 0px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.vote-list-container .vote-list .vote-btn:hover{
+	background-color: #aa1fde;
+}
+.vote-list-container .vote-list .vote-btn.voted{
+	background-color: #DDDDDD;
+	cursor: auto;
+}
+
+
+/*详情页 - 内容*/
+.content-box{
+	width: 1100px;
+	min-height: 400px;
+	position: relative;
+	margin: 20px auto;
+	background-color: #F8F8F8;
+}
+
+
+/*详情页-投票区*/
+.detail-vote-box{
+	width: 1100px;
+	position: relative;
+	height: 170px;
+	margin: 20px auto;
+	font-size: 16px;
+}
+.detail-vote-box .title{
+	color: #999999;
+}
+.detail-vote-box .team-name{
+	margin-right: 30px;
+}
+.detail-vote-box .vote-count{
+	color: #f46161;
+}
+.detail-vote-box .share-box{
+	float: right;
+}
+
+.detail-vote-box .vote-btn{
+	width: 260px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #7b00a9;
+	color: #FFFFFF;
+	margin-top: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.detail-vote-box .vote-btn:hover{
+	background-color: #aa1fde;
+}
+.detail-vote-box .vote-btn.voted{
+	background-color: #DDDDDD;
+	cursor: auto;
+}

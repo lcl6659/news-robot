@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>留言</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="renderer" content="webkit">
+		<meta name="baidu-site-verification" content="d5qOMB2cgK">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<link rel="shortcut icon" href="../imgs/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="../css/common.css">
+	</head>
+
+	<body>
+		<!--头部-->
+		<div class="common-container">
+			<div class="head-top-container">
+				<div class="top-box">
+					<div class="logo-box">
+						<a href="index.html">
+							<img src="../imgs/common/Robot-logo.png" />
+						</a>
+					</div>
+					<form class="search-box" method="post">
+						<div class="select-box">
+							<span class="down-arrow"></span>
+							<span class="select-type" id="selectSearchType">直播·视频</span>
+							<div class="type-box" id="typeBoxPanel" show-state="0">
+								<span class="select-type" search-type="01">直播·视频</span>
+								<span class="select-type" search-type="02">新闻中心</span>
+								<span class="select-type" search-type="03">赛事专区</span>
+								<span class="select-type" search-type="04">行业·科教</span>
+							</div>
+						</div>
+						<div class="input-box">
+							<input type="text" name="searchWord" placeholder="请输入搜索的内容" />
+						</div>
+						<input type="hidden" name="searchType" value="01" id="searchType" />
+						<input type="submit" class="submit-btn" id="searchBtn" value="搜索" />
+					</form>
+					<a class="register-btn" href="user/register.html">注册</a>
+					<a class="login-btn" href="user/login.html">登录</a>
+				</div>
+			</div>
+			<div class="head-nav-container">
+				<div class="nav-box">
+					<ul id="mainNav">
+						<li>
+							<a class="nav-text" href="index.html">首页</a>
+						</li>
+						<li>
+							<a class="nav-text" href="signUp/entryCompetition.html">参加比赛</a>
+						</li>
+						<li>
+							<a class="nav-text" href="signUp/otherSignUp.html">媒体报名</a>
+						</li>
+						<li>
+							<a class="nav-text" href="vote/voteList.html">投票列表</a>
+						</li>
+						<li>
+							<a class="nav-text" href="commonDataList.html">新闻中心列表页面</a>
+						</li>
+						<li class="active">
+							<a class="nav-text" href="leaveMsg.html">客户留言</a>
+						</li>
+						<li>
+							<a class="nav-text" href="#">个人中心</a>
+							<span class="down-arrow"></span>
+							<div class="nav-down-box">
+								<span class="up-arrow"></span>
+								<a class="down-text" href="user/accountInfo.html">账户信息</a>
+								<a class="down-text" href="user/message.html">站内消息</a>
+								<a class="down-text" href="user/myVideo.html">拍客</a>
+								<a class="down-text" href="user/changePwd.html">修改密码</a>
+							</div>
+						</li>
+						<li>
+							<a class="nav-text" href="versionUpgrade.html">浏览器升级提示页面</a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		
+		<div class="common-container">
+			<div class="common-data-list">
+				<div class="left-box">
+					<!--面包屑导航-->
+					<div class="bread-nav">
+						<a href="#"><span class="go-home"></span></a>
+						<a href="#">首页&nbsp;>&nbsp;</a><h1>客户留言</h1>
+					</div>
+					
+					<form class="leave-form">
+						<textarea name="leaveMsg" class="leave-msg" placeholder="留言内容"></textarea>
+						<input type="submit" value="提交留言" class="submit-btn"/>
+					</form>
+					
+					
+				</div>
+				
+				<!--右侧数据-->
+				<div class="public-right-box">
+					<a href="#" class="a-img">
+						<img src="../imgs/index/hot-03.png" />
+					</a>
+					<a href="#" class="a-img">
+						<img src="../imgs/index/sign-up.png" />
+					</a>
+					
+					<!--精彩推荐-->
+					<div class="tab-title-box">
+						<span class="bottom-line"></span>
+						<span class="one-tab title-tab">精彩推荐</span>
+					</div>
+					<div class="recommend-box-01">
+						<div class="recommend-01">
+							<a href="#"><div class="img-box" style="background-image: url(../imgs/demo/01.png);"></div></a>
+							<a href="#" class="recommend-text">刹那间的才能到家你的成绩内存空间大内存杰克丹尼</a>
+						</div>
+						<div class="recommend-01">
+							<a href="#"><div class="img-box" style="background-image: url(../imgs/demo/01.png);"></div></a>
+							<a href="#" class="recommend-text">刹那间的才能到家你的成绩内存空间大内存杰克丹尼</a>
+						</div>
+						<div class="recommend-01">
+							<a href="#"><div class="img-box" style="background-image: url(../imgs/demo/01.png);"></div></a>
+							<a href="#" class="recommend-text">承诺的基础南京的</a>
+						</div>
+						<div class="recommend-01">
+							<a href="#"><div class="img-box" style="background-image: url(../imgs/demo/01.png);"></div></a>
+							<a href="#" class="recommend-text">刹那间的才能到家你的成绩内存空间大内存杰克丹尼</a>
+						</div>
+					</div>
+					
+					<a href="#" class="a-img">
+						<img src="../imgs/index/sign-up.png" />
+					</a>
+					
+					<!--大家都在看-->
+					<div class="tab-title-box">
+						<span class="bottom-line"></span>
+						<span class="one-tab title-tab">大家都在看</span>
+					</div>
+					<div class="all-look-box">
+						<div class="tab-box">
+							<span class="one-tab tab-01 active" look-index="1">拍客</span>
+							<span class="one-tab tab-02" look-index="2">精彩回顾</span>
+						</div>
+						
+						<div class="look-list active" look-box-index="1">
+							<div class="one-look">
+								<div class="look-img" style="background-image: url(../imgs/demo/01.png);"></div>
+								<div class="look-content">
+									<div class="content">
+										<a href="#">小才能到数据库承诺技术的难处就是电脑秀出班行差不多还城</a>
+									</div>
+									<div class="go-look">
+										<a href="#">围观>></a>
+									</div>
+								</div>
+							</div>
+							<div class="one-look">
+								<div class="look-img" style="background-image: url(../imgs/demo/01.png);"></div>
+								<div class="look-content">
+									<div class="content">
+										<a href="#">小才能到数据库承诺技术的难处就是电脑秀出班行差不多还城</a>
+									</div>
+									<div class="go-look">
+										<a href="#">围观>></a>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						
+						<div class="look-list" look-box-index="2">
+							<div class="one-look">
+								<div class="look-img" style="background-image: url(../imgs/demo/01.png);"></div>
+								<div class="look-content">
+									<div class="content">
+										<a href="#">你就吹牛的时刻才拿到手拿成绩单上</a>
+									</div>
+									<div class="go-look">
+										<a href="#">围观>></a>
+									</div>
+								</div>
+							</div>
+							<div class="one-look">
+								<div class="look-img" style="background-image: url(../imgs/demo/01.png);"></div>
+								<div class="look-content">
+									<div class="content">
+										<a href="#">城市的哈哈打款哈数据库的挥洒</a>
+									</div>
+									<div class="go-look">
+										<a href="#">围观>></a>
+									</div>
+								</div>
+							</div>
+							<div class="one-look">
+								<div class="look-img" style="background-image: url(../imgs/demo/01.png);"></div>
+								<div class="look-content">
+									<div class="content">
+										<a href="#">城市的哈哈打款哈数据库的挥洒</a>
+									</div>
+									<div class="go-look">
+										<a href="#">围观>></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		
+
+		<!--底部-->
+		<div class="bottom-container">
+			<div class="bottom-box">
+				<div class="href-box">
+					<a href="#">关于我们</a>
+					<a href="#">联系我们</a>
+					<a href="#">参赛报名</a>
+					<a href="#">客户留言</a>
+					<a href="#">关于我们</a>
+				</div>
+				<div class="share-box">
+					<span class="title">关注我们</span>
+					<a href="#"><span class="share-itme share-01"></span></a>
+					<a href="#"><span class="share-itme share-02"></span></a>
+					<a href="#"><span class="share-itme share-03"></span></a>
+				</div>
+				<div class="web-msg-box">
+					<span>Powered by Discuz! © 2001-2013 Comsenz Inc. 粤ICP备12020166号  粤公网</span>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="../js/public/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
+	</body>
+
+</html>

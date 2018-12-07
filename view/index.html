@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>首页</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="renderer" content="webkit">
+		<meta name="baidu-site-verification" content="d5qOMB2cgK">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<link rel="shortcut icon" href="../imgs/favicon.ico">
+		<script src="../js/version.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/common.css">
+		<link rel="stylesheet" href="../js/swiper-2.7.6/swiper.css" />
+		<link rel="stylesheet" type="text/css" href="../css/index.css">
+	</head>
+
+	<body>
+		<!--头部-->
+		<div class="common-container">
+			<div class="head-top-container">
+				<div class="top-box">
+					<div class="logo-box">
+						<a href="index.html">
+							<img src="../imgs/common/Robot-logo.png" />
+						</a>
+					</div>
+					<form class="search-box" method="post">
+						<div class="select-box">
+							<span class="down-arrow"></span>
+							<span class="select-type" id="selectSearchType">直播·视频</span>
+							<div class="type-box" id="typeBoxPanel" show-state="0">
+								<span class="select-type" search-type="01">直播·视频</span>
+								<span class="select-type" search-type="02">新闻中心</span>
+								<span class="select-type" search-type="03">赛事专区</span>
+								<span class="select-type" search-type="04">行业·科教</span>
+							</div>
+						</div>
+						<div class="input-box">
+							<input type="text" name="searchWord" placeholder="请输入搜索的内容" />
+						</div>
+						<input type="hidden" name="searchType" value="01" id="searchType" />
+						<input type="submit" class="submit-btn" id="searchBtn" value="搜索" />
+					</form>
+					<a class="register-btn" href="user/register.html">注册</a>
+					<a class="login-btn" href="user/login.html">登录</a>
+				</div>
+			</div>
+			<div class="head-nav-container">
+				<div class="nav-box">
+					<ul id="mainNav">
+						<li class="active">
+							<a class="nav-text" href="index.html">首页</a>
+						</li>
+						<li>
+							<a class="nav-text" href="signUp/entryCompetition.html">参加比赛</a>
+						</li>
+						<li>
+							<a class="nav-text" href="signUp/otherSignUp.html">媒体报名</a>
+						</li>
+						<li>
+							<a class="nav-text" href="vote/voteList.html">投票列表</a>
+						</li>
+						<li>
+							<a class="nav-text" href="commonDataList.html">新闻中心列表页面</a>
+						</li>
+						<li>
+							<a class="nav-text" href="leaveMsg.html">客户留言</a>
+						</li>
+						<li>
+							<a class="nav-text" href="#">个人中心</a>
+							<span class="down-arrow"></span>
+							<div class="nav-down-box">
+								<span class="up-arrow"></span>
+								<a class="down-text" href="user/accountInfo.html">账户信息</a>
+								<a class="down-text" href="user/message.html">站内消息</a>
+								<a class="down-text" href="user/myVideo.html">拍客</a>
+								<a class="down-text" href="user/changePwd.html">修改密码</a>
+							</div>
+						</li>
+						<li>
+							<a class="nav-text" href="versionUpgrade.html">浏览器升级提示页面</a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!--banner-->
+		<div class="common-container">
+			<div class="banner-box">
+				<div class="swiper-container" id="bannerSwipe">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<a class="banner-img" href="#" style="background-image: url(../imgs/demo/banner-01.png);"></a>
+							<div class="text-box">
+								<h2><a href="#">冬天来了，你的青春是否还有活力</a></h2>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<a class="banner-img" href="#" style="background-image: url(../imgs/demo/banner-01.png);"></a>
+							<div class="text-box">
+								<h2><a href="#">风景的美丽，在于它遥远的距离和美丽的传说</a></h2>
+							</div>
+						</div>
+					</div>
+					<div class="pagination"></div>
+				</div>
+			</div>
+		</div>
+
+		<!--今日热点-->
+		<div class="common-container">
+			<div class="box-01">
+				<div class="left-box">
+					<div class="hot-swipe">
+						<div class="swiper-container" id="hotSwiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide red-slide">
+									<a href="#" class="a-img img-01">
+										<img src="../imgs/index/hot-01.jpg" />
+										<h4 class="img-text">机器人大赛报名</h4>
+									</a>
+								</div>
+								<div class="swiper-slide red-slide">
+									<a href="#" class="a-img img-01">
+										<img src="../imgs/index/hot-01.jpg" />
+										<h4 class="img-text">机器人大赛报名</h4>
+									</a>
+								</div>
+								<div class="swiper-slide red-slide">
+									<a href="#" class="a-img img-01">
+										<img src="../imgs/index/hot-01.jpg" />
+										<h4 class="img-text">机器人大赛报名</h4>
+									</a>
+								</div>
+
+							</div>
+							<div class="pagination02"></div>
+						</div>
+					</div>
+					<a href="#" class="a-img img-02">
+						<img src="../imgs/index/hot-02.jpg" />
+					</a>
+				</div>
+				<div class="center-box">
+					<div class="title-box">今日<span class="back-color">热点</span><span class="line"></span></div>
+					<ul class="hot-list">
+						<li>
+							<a href="#">硅谷世界机器人舞蹈大赛邀你加入硅谷世界机器人界机器人舞蹈大入不好吃都不会才帮</a>
+						</li>
+						<li>
+							<a href="#">硅谷世界机器人舞蹈大赛邀你加入硅谷世界机器人界机器人舞蹈大入</a>
+						</li>
+						<li>
+							<a href="#">硅谷世界机器人舞蹈大赛邀你加入硅谷世界机器人界机器人舞蹈大入</a>
+						</li>
+						<li>
+							<a href="#">硅谷世界机器人舞蹈大赛邀你加入硅谷世界机器人界机器人舞蹈大入</a>
+						</li>
+						<li>
+							<a href="#">硅谷世界机器人舞蹈大赛邀你加入硅谷世界机器人界机器人舞蹈大入</a>
+						</li>
+						<li>
+							<a href="#">硅谷世界机器人舞蹈大赛邀你加入硅谷世界机器人界机器人舞蹈大入</a>
+						</li>
+						<li>
+							<a href="#">硅谷世界机器人舞蹈大赛邀你加入硅谷世界机器人界机器人舞蹈大入</a>
+						</li>
+					</ul>
+				</div>
+				<div class="right-box">
+					<a href="#" class="a-img img-03">
+						<img src="../imgs/index/hot-03.png" />
+						<h4 class="img-text-02">硅谷世界机器人首届舞蹈大赛</h4>
+					</a>
+					<a href="#" class="a-img img-04">
+						<img src="../imgs/index/sign-up.png" />
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!--中间一个长图-->
+		<div class="common-container">
+			<div class="box-02">
+				<a href="#">
+					<img src="../imgs/index/little-banner.png" />
+				</a>
+			</div>
+		</div>
+
+		<!--经典回顾-->
+		<div class="common-container">
+			<div class="box-03">
+				<div class="left-box">
+					<div class="tab-title-box">
+						<span class="bottom-line right-15"></span>
+						<span class="one-tab title-tab active">经典回顾</span>
+						<span class="one-tab"><a href="#">最新赛事</a></span>
+						<span class="one-tab"><a href="#">直播</a></span>
+						<span class="one-tab"><a href="#">精选</a></span>
+						<span class="one-tab"><a href="#">拍客</a></span>
+						<span class="one-tab"><a href="#">访谈</a></span>
+					</div>
+					<div class="video-list">
+						<div class="one-video">
+							<div class="video-img-box">
+								<a href="#"><img src="../imgs/demo/01.png" /></a>
+							</div>
+							<div class="video-text">
+								<a href="#">才半年到今年初的可小菜鸟山东济南细思才半年多后变成极恐能今年</a>
+							</div>
+						</div>
+						<div class="one-video">
+							<div class="video-img-box">
+								<a href="#"><img src="../imgs/demo/01.png" /></a>
+							</div>
+							<div class="video-text">
+								<a href="#">才半年到今年初的可小菜鸟山东济南细思才半年多后变成极恐能今年</a>
+							</div>
+						</div>
+						<div class="one-video">
+							<div class="video-img-box">
+								<a href="#"><img src="../imgs/demo/01.png" /></a>
+							</div>
+							<div class="video-text">
+								<a href="#">才半年到今年初的可小菜鸟山东济南细思才半年多后变成极恐能今年</a>
+							</div>
+						</div>
+						<div class="one-video">
+							<div class="video-img-box">
+								<a href="#"><img src="../imgs/demo/01.png" /></a>
+							</div>
+							<div class="video-text">
+								<a href="#">才半年到今年初的可小菜鸟山东济南细思才半年多后变成极恐能今年</a>
+							</div>
+						</div>
+						<div class="one-video">
+							<div class="video-img-box">
+								<a href="#"><img src="../imgs/demo/01.png" /></a>
+							</div>
+							<div class="video-text">
+								<a href="#">才半年到今年初的可小菜鸟山东济南细思才半年多后变成极恐能今年</a>
+							</div>
+						</div>
+						<div class="one-video">
+							<div class="video-img-box">
+								<a href="#"><img src="../imgs/demo/01.png" /></a>
+							</div>
+							<div class="video-text">
+								<a href="#">才半年到今年初的可小菜鸟山东济南细思才半年多后变成极恐能今年</a>
+							</div>
+						</div>
+						<div class="one-video">
+							<div class="video-img-box">
+								<a href="#"><img src="../imgs/demo/01.png" /></a>
+							</div>
+							<div class="video-text">
+								<a href="#">才半年到今年初的可小菜鸟山东济南细思才半年多后变成极恐能今年</a>
+							</div>
+						</div>
+						<div class="one-video">
+							<div class="video-img-box">
+								<a href="#"><img src="../imgs/demo/01.png" /></a>
+							</div>
+							<div class="video-text">
+								<a href="#">才半年到今年初的可小菜鸟山东济南细思才半年多后变成极恐能今年</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="right-box">
+					<div class="tab-title-box">
+						<span class="bottom-line"></span>
+						<span class="one-tab title-tab pointerMouse active" tab-index="0">赛事速递</span>
+						<span class="one-tab title-tab pointerMouse" tab-index="1">新闻动态</span>
+					</div>
+
+					<div class="title-img">
+						<img src="../imgs/index/title-img-01.jpg" />
+					</div>
+
+					<div class="tab-content-box active" tab-box-index="0">
+						<ul>
+							<li>
+								<a href="#"><span class="number qiansan">1</span>现场都不会差不多还才能多久才能到家看从动脑筋</a>
+							</li>
+							<li>
+								<a href="#"><span class="number qiansan">2</span>现场都不会差不多还才能多久才能到家看从动脑筋</a>
+							</li>
+							<li>
+								<a href="#"><span class="number qiansan">3</span>现场都不会差不多还才能多久才能到家看从动脑筋</a>
+							</li>
+							<li>
+								<a href="#"><span class="number">4</span>现场都不会差不多还才能多久才能到家看从动脑筋</a>
+							</li>
+							<li>
+								<a href="#"><span class="number">5</span>现场都不会差不多还才能多久才能到家看从动脑筋</a>
+							</li>
+							<li>
+								<a href="#"><span class="number">6</span>现场都不会差不多还才能多久才能到家看从动脑筋</a>
+							</li>
+							<li>
+								<a href="#"><span class="number">7</span>现场都不会差不多还才能多久才能到家看从动脑筋</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="tab-content-box" tab-box-index="1">
+						<ul>
+							<li>
+								<a href="#"><span class="number qiansan">1</span>几斤几两京津冀看就看六角恐龙</a>
+							</li>
+							<li>
+								<a href="#"><span class="number qiansan">2</span>现场都不会差不多还才能多久才能到家看从动脑筋</a>
+							</li>
+							<li>
+								<a href="#"><span class="number qiansan">3</span>现场都不会差不多还才能多久才能到家看从动脑筋</a>
+							</li>
+							<li>
+								<a href="#"><span class="number">4</span>现场都不会差不多还才能多久才能到家看从动脑筋</a>
+							</li>
+							<li>
+								<a href="#"><span class="number">5</span>现场都不会差不多还才能多久才能到家看从动脑筋</a>
+							</li>
+							<li>
+								<a href="#"><span class="number">6</span>现场都不会差不多还才能多久才能到家看从动脑筋</a>
+							</li>
+							<li>
+								<a href="#"><span class="number">7</span>现场都不会差不多还才能多久才能到家看从动脑筋</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!--机器人精英-->
+		<div class="common-container">
+			<div class="box-04">
+				<div class="left-box">
+					<div class="tab-title-box">
+						<span class="bottom-line right-15"></span>
+						<span class="one-tab title-tab active">机器人精英</span>
+						<span class="one-tab"><a href="#">科教人物</a></span>
+						<span class="one-tab"><a href="#">经典怀旧</a></span>
+					</div>
+					<div class="img-list-02">
+						<a class="a-img list-img-01" href="#" style="background-image: url(../imgs/demo/02.png);">&nbsp;</a>
+						<a class="a-img list-img-02" href="#" style="background-image: url(../imgs/demo/02.png);">&nbsp;</a>
+						<a class="a-img list-img-03" href="#" style="background-image: url(../imgs/demo/02.png);">&nbsp;</a>
+						<a class="a-img list-img-04" href="#" style="background-image: url(../imgs/demo/02.png);">&nbsp;</a>
+						<a class="a-img list-img-05" href="#" style="background-image: url(../imgs/demo/02.png);">&nbsp;</a>
+						<a class="a-img list-img-06" href="#" style="background-image: url(../imgs/demo/02.png);">&nbsp;</a>
+					</div>
+				</div>
+				<div class="right-box">
+					<div class="tab-title-box">
+						<span class="bottom-line"></span>
+						<span class="one-tab title-tab pointerMouse active" tab-index="0">官方动态</span>
+						<span class="one-tab title-tab pointerMouse" tab-index="1">行业新闻</span>
+					</div>
+
+					<div class="tab-content-box active" tab-box-index="0">
+						<ul>
+							<li>
+								<a href="#">
+									<div class="img-wrap" style="background-image: url(../imgs/demo/02.png);"></div>
+									<div class="text-box">茶几上的检查的私家车圣诞节快乐茶几上的科技城考虑到小菜鸟四大皆空曾经看到</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="img-wrap" style="background-image: url(../imgs/demo/02.png);"></div>
+									<div class="text-box">茶几上的检查的私家车圣诞节快乐茶几上的科技城考虑到小菜鸟四大皆空曾经看到</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="img-wrap" style="background-image: url(../imgs/demo/02.png);"></div>
+									<div class="text-box">茶几上的检查的私家车圣诞节快乐茶几上的科技城考虑到小菜鸟四大皆空曾经看到</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="img-wrap" style="background-image: url(../imgs/demo/02.png);"></div>
+									<div class="text-box">茶几上的检查的私家车圣诞节快乐茶几上的科技城考虑到小菜鸟四大皆空曾经看到</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="img-wrap" style="background-image: url(../imgs/demo/02.png);"></div>
+									<div class="text-box">茶几上的检查的私家车圣诞节快乐茶几上的科技城考虑到小菜鸟四大皆空曾经看到</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="img-wrap" style="background-image: url(../imgs/demo/02.png);"></div>
+									<div class="text-box">哪家那家可能尽可能健康</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="img-wrap" style="background-image: url(../imgs/demo/02.png);"></div>
+									<div class="text-box">茶几上的检查的私家车圣诞节快乐茶几上的科技城考虑到小菜鸟四大皆空曾经看到</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="tab-content-box" tab-box-index="1">
+						<ul>
+							<li>
+								<a href="#">
+									<div class="img-wrap" style="background-image: url(../imgs/demo/02.png);"></div>
+									<div class="text-box">差点被你不吃都比较差的火车不能参加活动</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="img-wrap" style="background-image: url(../imgs/demo/02.png);"></div>
+									<div class="text-box">差点被你不吃都比较差的火车不能参加活动</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="img-wrap" style="background-image: url(../imgs/demo/02.png);"></div>
+									<div class="text-box">差点被你不吃都比较差的火车不能参加活动</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="img-wrap" style="background-image: url(../imgs/demo/02.png);"></div>
+									<div class="text-box">差点被你不吃都比较差的火车不能参加活动</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="img-wrap" style="background-image: url(../imgs/demo/02.png);"></div>
+									<div class="text-box">差点被你不吃都比较差的火车不能参加活动</div>
+								</a>
+							</li>
+
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!--专家观点-->
+		<div class="common-container">
+			<div class="box-05">
+				<div class="left-box">
+					<div class="tab-title-box">
+						<span class="bottom-line right-15"></span>
+						<span class="one-tab title-tab">专家观点</span>
+					</div>
+					<div class="list-03">
+						<div class="one-box">
+							<a href="#">
+								<h3 class="title">才能对健康才能打成本南大街才能对健康才能开奶茶店</h3>
+								<p class="content">大花洒回到家开始道具卡数据库的挥洒，大厦尽快的哈数据库，大厦尽快的哈数据库回到家看撒谎的教科书</p>
+							</a>
+						</div>
+						<div class="one-box">
+							<a href="#">
+								<h3 class="title">才能对健康才能打成本南大街才能对健康才能开奶茶店</h3>
+								<p class="content">大花洒回到家开始道具卡数据库的挥洒，大厦宣传部的手抄报金黄色的保存较好的是保存较好的本身就差不多尽快的哈数据库，大厦尽快的哈数据库回到家看撒谎的教差不多还差不多科书</p>
+							</a>
+						</div>
+						<div class="one-box">
+							<a href="#">
+								<h3 class="title">才能对健康才能打成本南大街才能对健康才能开奶茶店</h3>
+								<p class="content">大花洒回到家开始道具卡数据库的挥洒，大厦尽快的哈数据库，大厦尽快的哈数据库回到家看撒谎的教科书</p>
+							</a>
+						</div>
+						<div class="one-box">
+							<a href="#">
+								<h3 class="title">才能对健康才能打成本南大街才能对健康才能开奶茶店</h3>
+								<p class="content">大花洒回到家开始道具卡数据库的挥洒，大厦尽快的哈数据库，大厦尽快的哈数据库回到家看撒谎的教科书</p>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="right-box">
+					<a href="#">
+						<img src="../imgs/index/img-01.jpg" />
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!--支持媒体-->
+		<div class="common-container">
+			<div class="box-06">
+				<div class="tab-title-box">
+					<span class="bottom-line"></span>
+					<span class="one-tab title-tab">支持媒体</span>
+				</div>
+
+				<div class="list-04">
+					<div class="one-box-04">
+						<a href="#" style="background-image: url(../imgs/demo/03.png);">&nbsp;</a>
+					</div>
+					<div class="one-box-04">
+						<a href="#" style="background-image: url(../imgs/demo/03.png);">&nbsp;</a>
+					</div>
+					<div class="one-box-04">
+						<a href="#" style="background-image: url(../imgs/demo/03.png);">&nbsp;</a>
+					</div>
+					<div class="one-box-04">
+						<a href="#" style="background-image: url(../imgs/demo/03.png);">&nbsp;</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!--合作单位-->
+		<div class="common-container">
+			<div class="box-07">
+				<div class="tab-title-box">
+					<span class="bottom-line"></span>
+					<span class="one-tab title-tab">合作单位</span>
+				</div>
+				<div class="swipe-list-box">
+					<div class="swiper-container" id="listSwiper01">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide red-slide">
+								<div class="one-swipe-box">
+									<a href="#" style="background-image: url(../imgs/demo/03.png);">&nbsp;</a>
+								</div>
+							</div>
+
+							<div class="swiper-slide red-slide">
+								<div class="one-swipe-box">
+									<a href="#" style="background-image: url(../imgs/demo/03.png);">&nbsp;</a>
+								</div>
+							</div>
+
+							<div class="swiper-slide red-slide">
+								<div class="one-swipe-box">
+									<a href="#" style="background-image: url(../imgs/demo/03.png);">&nbsp;</a>
+								</div>
+							</div>
+
+							<div class="swiper-slide red-slide">
+								<div class="one-swipe-box">
+									<a href="#" style="background-image: url(../imgs/demo/03.png);">&nbsp;</a>
+								</div>
+							</div>
+
+							<div class="swiper-slide red-slide">
+								<div class="one-swipe-box">
+									<a href="#" style="background-image: url(../imgs/demo/03.png);">&nbsp;</a>
+								</div>
+							</div>
+
+							<div class="swiper-slide red-slide">
+								<div class="one-swipe-box">
+									<a href="#" style="background-image: url(../imgs/demo/03.png);">&nbsp;</a>
+								</div>
+							</div>
+
+							<div class="swiper-slide red-slide">
+								<div class="one-swipe-box">
+									<a href="#" style="background-image: url(../imgs/demo/03.png);">&nbsp;</a>
+								</div>
+							</div>
+
+							<div class="swiper-slide red-slide">
+								<div class="one-swipe-box">
+									<a href="#" style="background-image: url(../imgs/demo/03.png);">&nbsp;</a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<span class="arrow-left"></span>
+				<span class="arrow-right"></span>
+
+			</div>
+
+		</div>
+
+		<div class="back-top-box">
+
+		</div>
+
+		<!--底部-->
+		<div class="bottom-container">
+			<div class="bottom-box">
+				<div class="href-box">
+					<a href="#">关于我们</a>
+					<a href="#">联系我们</a>
+					<a href="#">参赛报名</a>
+				</div>
+				<div class="share-box">
+					<span class="title">关注我们</span>
+					<a href="#"><span class="share-itme share-01"></span></a>
+					<a href="#"><span class="share-itme share-02"></span></a>
+					<a><span class="share-itme share-03">
+						<div class="erweima-box"></div>
+					</span></a>
+				</div>
+				<div class="web-msg-box">
+					<span>Powered by Discuz! © 2001-2013 Comsenz Inc. 粤ICP备12020166号  粤公网</span>
+				</div>
+				<!--回顶部-->
+				<div class="back-top-box" id="backToTop"></div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="../js/public/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="../js/swiper-2.7.6/swiper.min.js"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
+		<script type="text/javascript" src="../js/index.js"></script>
+	</body>
+
+</html>

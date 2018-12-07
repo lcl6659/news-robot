@@ -1,0 +1,313 @@
+body{
+	background-color: #f4f4f4;
+}
+.bread-nav-box{
+	width: 1100px;
+	margin: 30px auto 40px auto;
+	position: relative;
+}
+
+.sign-up-box{
+	width: 1100px;
+	position: relative;
+	margin: 20px auto 40px auto;
+	min-height: 400px;
+	background-color: #fff;
+}
+.sign-up-box .tab-box{
+	width: 100%;
+	height: 70px;
+	border-bottom: 1px solid #DCD5DF;
+	text-align: center;
+}
+.sign-up-box .tab-box ul{
+	display: inline;
+}
+.sign-up-box .tab-box ul li{
+	display: inline-block;
+	height: 68px;
+	position: relative;
+	top: 1px;
+	line-height: 68px;
+	cursor: pointer;
+	padding: 0px 5px;
+	margin: 0px 45px;
+	text-align: center;
+}
+.sign-up-box .tab-box ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.sign-up-box .tab-box ul li.active{
+	border-bottom: 2px solid #7b00a9;
+}
+
+.sign-up-box .sign-up-form{
+	position: relative;
+	width: 100%;
+	margin-top: 50px;
+}
+.sign-up-box .sign-up-form .group-box{
+	width: 100%;
+	min-height: 45px;
+	line-height: 45px;
+	font-size: 16px;
+	color: #333333;
+	margin-bottom: 10px;
+}
+.sign-up-box .sign-up-form .title{
+	width: 350px;
+	height: 45px;
+	text-align: right;
+	display: inline-block;
+	vertical-align: top;
+}
+.sign-up-box .sign-up-form .input-box{
+	width: 400px;
+	min-height: 45px;
+	text-align: right;
+	margin-left: 20px;
+	display: inline-block;
+	vertical-align: top;
+}
+.sign-up-box .sign-up-form input,
+.sign-up-box .sign-up-form textarea{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.sign-up-box .sign-up-form input:focus,
+.sign-up-box .sign-up-form textarea:focus{
+	border: 1px solid #7B00A9;
+}
+.sign-up-box .sign-up-form .common-input{
+	width: 400px;
+	height: 45px;
+	border: 1px solid #DCD5DF;
+	border-radius: 4px;
+	outline: none;
+	padding-left: 20px;
+	font-size: 16px;
+}
+.sign-up-box .sign-up-form .y-input{
+	width: 250px;
+	height: 45px;
+	border: 1px solid #DCD5DF;
+	border-radius: 4px;
+	outline: none;
+	padding-left: 20px;
+	font-size: 16px;
+	float: left;
+}
+.sign-up-box .sign-up-form .get-code{
+	width: 140px;
+	height: 43px;
+	background-color: #7B00A9;
+	text-align: center;
+	line-height: 43px;
+	color: #fff;
+	float: right;
+	border-radius: 4px;
+	border: 1px solid #7B00A9;
+	cursor: pointer;
+}
+.sign-up-box .sign-up-form .get-code:hover{
+	background-color: #aa1fde;
+	border: 1px solid #aa1fde;
+}
+.sign-up-box .sign-up-form .text-input{
+	width: 400px;
+	height: 100px;
+	border: 1px solid #DCD5DF;
+	border-radius: 4px;
+	outline: none;
+	padding-left: 20px;
+	font-size: 16px;
+	resize: none;
+	padding-top: 16px;
+}
+.sign-up-box .sign-up-form .submit-btn{
+	width: 400px;
+	height: 45px;
+	border-radius: 4px;
+	background-color: #7B00A9;
+	color: #fff;
+	outline: none;
+	border: 0px solid #DCD5DF;
+	margin-left: 375px;
+	margin-bottom: 90px;
+	font-size: 20px;
+	cursor: pointer;
+	font-size: 18px;
+}
+.sign-up-box .sign-up-form .submit-btn:hover{
+	background-color: #aa1fde;
+}
+.sign-up-box .sign-up-form .error-msg{
+	width: 300px;
+	overflow: hidden;
+	height: 45px;
+	color: red;
+	display: inline-block;
+	margin-left: 20px;
+}
+.sign-up-box .sign-up-form .error-msg-02{
+	width: 260px;
+	overflow: hidden;
+	height: 45px;
+	color: red;
+	display: inline-block;
+	margin-left: 20px;
+}
+.sign-up-box .sign-up-form .file-input-box{
+	width: 430px;
+	min-height: 45px;
+	text-align: right;
+	margin-left: 20px;
+	display: inline-block;
+	vertical-align: top;
+}
+.sign-up-box .sign-up-form .file-box{
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	position: relative;
+}
+.sign-up-box .sign-up-form .file-box .add-file{
+	width: 150px;
+	height: 45px;
+	line-height: 45px;
+	position: relative;
+	z-index: 10;
+	border: 1px solid #7B00A9;
+	border-radius: 4px;
+	line-height: 44px;
+	padding-left: 37px;
+	background-image: url(../imgs/public/add.png);
+	background-repeat: no-repeat;
+	background-position: 12px center;
+	background-size: auto;
+	color: #7B00A9;
+	text-align: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	float: left;
+}
+.webuploader-pick{
+	width: 150px;
+	height: 45px;
+	position: relative;
+	border: 1px solid #7B00A9;
+	border-radius: 4px;
+	line-height: 24px;
+	padding-left: 37px;
+	background-image: url(../imgs/public/add.png);
+	background-repeat: no-repeat;
+	background-position: 12px center;
+	background-size: auto;
+	color: #7B00A9;
+	text-align: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	float: left;
+	background-color: #fff;
+}
+.webuploader-pick-hover{
+	color: #FFFFFF;
+	background-color: #7B00A9;
+	background-image: url(../imgs/public/add-02.png);
+}
+.sign-up-box .sign-up-form .file-box .tip-text{
+	font-size: 14px;
+	color: #8a8a8a;
+	float: left;
+	margin-left: 8px;
+}
+.sign-up-box .sign-up-form .file-box input{
+	position: absolute;
+	width: 150px;
+	height: 45px;
+	left: 0px;
+	top: 0px;
+	z-index: 100;
+	opacity: 0;
+	cursor: pointer;
+}
+.sign-up-box .sign-up-form .upload-img-list{
+	width: 100%;
+	position: relative;
+	margin-bottom: 10px;
+	text-align: left;
+}
+.sign-up-box .sign-up-form .upload-img-list .one-upload{
+	width: 190px;
+	height: 190px;
+	border-radius: 4px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 20px 20px -13px 0px;
+	display: inline-block;
+	position: relative;
+	left: -5px;
+	background-color: #FFFFFF;
+	border: 1px solid #E6E6E6;
+}
+.sign-up-box .sign-up-form .upload-img-list .one-upload .remove-img{
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	top: 10px;
+	right: 10px;
+	background-image: url(../imgs/public/remove.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+	cursor: pointer;
+	border: 1px solid #E0E0E0;
+	border-radius: 50%;
+}
+
+.sign-up-success{
+	width: 1100px;
+	height: 650px;
+	background-color: #fff;
+	margin: 20px auto 60px auto;
+	position: relative;
+}
+.sign-up-success .success-img{
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	left: 0px;
+	right: 0px;
+	margin: 0px auto;
+	top: 175px;
+	background-image: url(../imgs/public/success.png);
+}
+.sign-up-success .text{
+	width: 100%;
+	position: absolute;
+	top: 270px;
+	text-align: center;
+	color: #333;
+	font-size: 16px;
+}
+.sign-up-success .text02{
+	width: 100%;
+	position: absolute;
+	top: 300px;
+	text-align: center;
+	color: #333;
+	font-size: 16px;
+}
+.sign-up-success .text02 a{
+	text-decoration: underline;
+}
+
+.sign-up-success .text02 .time-count{
+	color: #7B00A9;
+}
